@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "shahkochaki\\ami\\": "src"
+            "Shahkochaki\\Ami\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "shahkochaki\\ami\\Tests\\": "tests"
+            "Shahkochaki\\Ami\\Tests\\": "tests"
         }
     },
     "scripts": {
