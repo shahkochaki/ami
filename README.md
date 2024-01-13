@@ -5,10 +5,14 @@ Easy control via [asterisk](http://www.asterisk.org/) manager interface (AMI).
 Installation and configuration
 ----------------
 
-To install as a [composer](https://getcomposer.org/) package to be used with Laravel 5 and above, simply run:
 You must create your own [Ami User](https://www.asteriskguru.com/tutorials/manager_conf.html) before installation
+
 Also check that port 5038 (default-changeable) is available.
+
 Make sure that the extension socket is active.
+
+To install as a [composer](https://getcomposer.org/) package to be used with Laravel 5 and above, simply run:
+
 
 ```sh
 composer require "shahkochaki/ami"
