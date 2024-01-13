@@ -1,13 +1,14 @@
-[![Build Status](https://travis-ci.org/shahkochaki/ami.svg?branch=master)](https://travis-ci.org/shahkochaki/ami)
-[![StyleCI](https://styleci.io/repos/62553643/shield?branch=master)](https://styleci.io/repos/62553643)
-# shahkochaki\Ami
+# Ami
 
 Easy control via [asterisk](http://www.asterisk.org/) manager interface (AMI).
 
 Installation and configuration
 ----------------
 
-To install as a [composer](https://getcomposer.org/) package to be used with Laravel 5, simply run:
+To install as a [composer](https://getcomposer.org/) package to be used with Laravel 5 and above, simply run:
+You must create your own [Ami User](https://www.asteriskguru.com/tutorials/manager_conf.html) before installation
+Also check that port 5038 (default-changeable) is available.
+Make sure that the extension socket is active.
 
 ```sh
 composer require "shahkochaki/ami"
@@ -35,6 +36,7 @@ You are can specify connection parameters for each command.
 | --port     | Asterisk AMI server port     |
 | --username | Asterisk AMI server username |
 | --secret   | Asterisk AMI server secret   |
+| --range    | Default number range, for example 100,300   |
 
 **Listen ami events**
 
