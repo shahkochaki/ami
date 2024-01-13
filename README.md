@@ -15,7 +15,7 @@ To install as a [composer](https://getcomposer.org/) package to be used with Lar
 
 
 ```sh
-composer require "shahkochaki/ami"
+composer require "shahkochaki/ami" or composer require "shahkochaki/ami:dev-master"
 ```
 
 Once it's installed, you can register the service provider in `config/app.php` in the `providers` array:
